@@ -36,13 +36,13 @@
    </div>
    <!-- Preloader Start-->
    <header>
-      <?php include_once '../app/vues/template/header.php'; ?>
+      <?php include_once '../app/vues/template/_header.php'; ?>
    </header>
    <main>
-      <?php    include_once '../app/vues/template/main.php'; ?>
+      <?php    include_once '../app/vues/template/_main.php'; ?>
    </main>
    <footer>
-      <?php    include_once '../app/vues/template/footer.php'; ?>
+      <?php    include_once '../app/vues/template/_footer.php'; ?>
 
    </footer>
 

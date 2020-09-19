@@ -4,7 +4,10 @@
         <div class="row">
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <div class="blog_left_sidebar">
-                    <article class="blog_item">
+
+                   <?php echo $mainContent ?>
+
+                    <!-- <article class="blog_item">
                         <div class="blog_item_img">
                            <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
                            <a href="#" class="blog_item_date">
@@ -107,7 +110,7 @@
                                 <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                            </ul>
                         </div>
-                    </article>
+                    </article> -->
 
                     <nav class="blog-pagination justify-content-center d-flex">
                         <ul class="pagination">
@@ -119,7 +122,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-               <?php    include_once '../app/vues/template/side.php'; ?>
+               <?php    include_once '../app/vues/template/_side.php'; ?>
 
             </div>
         </div>

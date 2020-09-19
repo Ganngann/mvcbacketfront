@@ -16,7 +16,7 @@ RewriteCond %{REQUEST_URI} !\.(js|css|jpg|gif|zip|png|pdf)$ [NC]
 # URL: page3.php?id=x
 # Un slug c'est la version du titre tt en minuscule et sans espace ou tout les caractères spéciaux sont remplacé par un tiret
 
-# RewriteRule ^posts/([1-9][0-9])/[a-z0-9][a-z0-9-].html$ index.php?id=$1 [L]
+RewriteRule ^posts/([1-9][0-9])/[a-z0-9][a-z0-9-].html$ index.php?id=$1 [L]
 
 # Route par défaut
 RewriteRule ^(.*)$ index.php [L]

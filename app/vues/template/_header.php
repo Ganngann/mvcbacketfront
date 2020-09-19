@@ -13,7 +13,7 @@
                          <!-- Main-menu -->
                          <div class="main-menu f-right d-none d-lg-block">
                              <nav>
-                                <?php    include_once '../app/vues/template/nav.php'; ?>
+                                <?php    include_once '../app/vues/template/_nav.php'; ?>
                              </nav>
                          </div>
                      </div>
