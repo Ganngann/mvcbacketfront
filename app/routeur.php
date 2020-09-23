@@ -14,6 +14,15 @@ if(isset($_GET['postID'])):
 
 
 
+elseif(isset($_GET['categorieID'])):
+   // var_dump($connexion);
+
+
+   include_once '../app/controleurs/categorieControleur.php';
+   App\controleurs\categorieControleur\showAction($connexion, $_GET['categorieID']);
+
+
+
 else:
    // Route par défaut
 
