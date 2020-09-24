@@ -8,6 +8,7 @@ function findOneById(\PDO $connexion, INT $postId){
    FROM posts p
    JOIN posts_has_tags phs ON p.id = phs.post_id
    JOIN tags t ON phs.tag_id = t.id
+   join authors a on p.author_id = a.id
    WHERE p.id = :id;";
 
    $rs = $connexion->prepare($sql);
